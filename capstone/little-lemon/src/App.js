@@ -2,8 +2,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">Homepage</div>
-  );
+    <>
+      <header>
+        <p>Header</p>
+      </header>
+      <nav>
+
+      </nav>
+      <main>
+        <h1>Main</h1>
+      </main>
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </>
+ );
 }
 
 export default App;
