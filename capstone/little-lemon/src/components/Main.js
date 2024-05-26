@@ -1,7 +1,15 @@
+import Introduction from "./Introduction";
+import Specials from "./Specials";
+import Testimonials from "./Testimonials";
+import About from "./About";
+
 function Main() {
     return (
         <main>
-            <h1>Main</h1>
+            <Introduction />
+            <Specials />
+            <Testimonials />
+            <About />
         </main>
     );
 }
