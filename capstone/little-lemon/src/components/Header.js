@@ -1,9 +1,9 @@
-import logo from "../images/Logo.svg";
+import Navigation from './Navigation';
 
 function Header() {
     return (
         <header>
-            <img src={logo} alt="Logo" />
+            <Navigation />
         </header>
     );
 }
