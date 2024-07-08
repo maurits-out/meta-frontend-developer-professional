@@ -1,8 +1,13 @@
 import Navigation from './Navigation';
 
+const headerStyle = {
+    maxWidth: '850px',
+    margin: 'auto',
+};
+
 function Header() {
     return (
-        <header>
+        <header style={headerStyle}>
             <Navigation />
         </header>
     );

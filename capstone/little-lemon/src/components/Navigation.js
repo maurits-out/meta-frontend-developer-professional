@@ -5,7 +5,7 @@ const navStyle = {
     flexWrap: 'wrap',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '10px 40px',
+    padding: '10px 10px',
 };
 
 const navLinksStyle = {
