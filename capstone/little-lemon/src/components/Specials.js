@@ -1,27 +1,39 @@
-import salad from "../images/salad.jpg";
-import bruchetta from "../images/bruchetta.jpg";
+import salad from "../images/salad.png";
+import bruchetta from "../images/bruchetta.png";
 import lemonDessert from "../images/lemon-dessert.jpg";
 import Special from "./Special";
+
+const sectionStyle = {
+    maxWidth: '850px',
+    margin: 'auto',
+};
 
 const divStyle = {
     display: 'flex',
     flexWrap: 'wrap',
     alignItems: 'center',
-    padding: '1rem',
+    justifyContent: 'space-between',
 };
 
 const h1Style = {
-    display: 'inline'
+    display: 'inline',
+    margin: '1rem 0rem',
 }
+
+const specialsArticle = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+};
 
 function Specials() {
     return (
-        <section>
+        <section style={sectionStyle}>
             <div style={divStyle}>
                 <h1 style={h1Style}>This week's specials!</h1>
                 <button>Online Menu</button>
             </div>
-            <article>
+            <article style={specialsArticle}>
                 <Special
                     key="salad"
                     title="Greek salad"
