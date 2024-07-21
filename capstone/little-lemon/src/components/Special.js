@@ -4,6 +4,8 @@ const specialStyle = {
     backgroundColor: '#EDEFEE',
     borderRadius: '5% 5% 0px 0px',
     position: 'relative',
+    marginRight: '1rem',
+    marginBottom: '1rem',
 };
 
 const imageStyle = {

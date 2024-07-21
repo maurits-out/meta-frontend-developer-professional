@@ -13,6 +13,7 @@ const divStyle = {
     flexWrap: 'wrap',
     alignItems: 'center',
     justifyContent: 'space-between',
+    marginBottom: '1rem',
 };
 
 const h1Style = {
@@ -26,12 +27,16 @@ const specialsArticle = {
     justifyContent: 'space-between',
 };
 
+const buttonStyle = {
+    margin: "auto 0px",
+};
+
 function Specials() {
     return (
         <section style={sectionStyle}>
             <div style={divStyle}>
                 <h1 style={h1Style}>This week's specials!</h1>
-                <button>Online Menu</button>
+                <button style={buttonStyle}>Online Menu</button>
             </div>
             <article style={specialsArticle}>
                 <Special
